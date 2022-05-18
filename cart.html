@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/541c9c221b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./js/main.js">
+    <style>
+        table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #999;
+    padding: 10px;
+}
+
+th,
+td {
+    border: 1px #CCC solid;
+    text-align: center;
+}
+
+td div {
+    width: calc(100% - 20px);
+    padding: 0px 10px;
+    text-align: right;
+}
+
+th div {
+    width: calc(100% - 10px);
+    padding: 0px 5px;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+td img {
+    width: 100px;
+}
+.boxcenter {
+    width: 60%;
+    margin: 0 auto;
+}
+input{
+    width: 800px;
+}
+    </style>
+</head>
+<body>
+ 
+    <div>
+           <!-- Phan menu -->
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#"><img id="logo" src="./img/market-logo-collection-template-concept_23-2148469237-removebg-preview.png" alt=""></a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Trang chủ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Trái cây</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Rau củ hữu cơ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="./index.html">Thực phẩm</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="./index.html">Các loại hạt</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="./cart.html">Giỏ hàng</a>
+                      </li>
+                    </ul>
+                    <div id="phone-box">
+                        <a id="text-phone" href=""><i class="fas fa-phone"></i>0909099999 </a>
+                    </div>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <!-- icon dang nhap -->
+                    <a href="./login.html"><i class="far fa-user"></i></a> 
+                    <!-- ........... -->
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <!-- ........................ -->
+        
+                   <!-- Slide chuyen dong -->
+       
+
+             <!-- Giao hang nhanh -->
+        <div>
+          <div class="list">
+            <div class="list-items">
+              <div class="media">
+                <div class="media-icon">
+                  <i class="fas fa-truck"></i>
+                </div>
+                <div class="text">
+                  <p>Giao hàng nội thành</p>
+                </div>
+              </div>
+            </div>
+            <div class="list-items">
+              <div class="media">
+                <div class="media-icon">
+                  <i class="fas fa-thumbs-up"></i>
+                </div>
+                <div class="text">
+                  <p>Khách hàng hài lòng</p>
+                </div>
+              </div>
+            </div>
+            <div class="list-items">
+              <div class="media">
+                <div class="media-icon">
+                  <i class="fas fa-hand-holding-usd"></i>
+                </div>
+                <div class="text">
+                  <p>Nhiều ưu đãi Hội viên</p>
+                </div>
+              </div>
+            </div>
+            <div class="list-items">
+              <div class="media">
+                <div class="media-icon">
+                  <i class="fas fa-clipboard-list"></i>
+                </div>
+                <div class="text">
+                  <p>Thương hiệu uy tính</p>
+                </div>
+              </div>
+            </div>
+            <div class="list-items">
+              <div class="media">
+                <div class="media-icon">
+                  <i class="fas fa-shopping-basket"></i>
+                </div>
+                <div class="text">
+                  <p>Shopping tiện lợi hơn</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><br><br><br><br>
+          <!-- .................. -->
+          <div class="boxcenter">
+          <div class="row mb ">
+            <div class="boxtrai mr">
+                <div class="row">
+                    <h1>THÔNG TIN NHẬN HÀNG</h1>
+                    <table class="thongtinnhanhang">
+                        <tr>
+                            <td width="20%">Họ tên</td>
+                            <td><input type="text" name="hoten"></td>
+                        </tr>
+                        <tr>
+                            <td>Địa chỉ</td>
+                            <td><input type="text" name="diachi"></td>
+                        </tr>
+                        <tr>
+                            <td>Điện thoại</td>
+                            <td><input type="text" name="dienthoai"></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td><input type="text" name="email"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="row mb">
+                    <h1>GIỎ HÀNG</h1>
+                    <table>
+                        <tr>
+                            <th>STT</th>
+                            <th>Hình</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Đơn giá</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền (đ)</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td><img src="./img/khoaitay.jpg" alt=""></td>
+                            <td>Khoai tây</td>
+                            <td>kg</td>
+                            <td>1 </td>
+                            <td>
+                                <div>10.000</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><img src="./img/occho.jpg" alt=""></td>
+                            <td>Óc chó</td>
+                            <td>kg</td>
+                            <td>1</td>
+                            <td>
+                                <div>102.000</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td><img src="./img/dualeo.jpg" alt=""></td>
+                            <td>Dưa leo</td>
+                            <td>kg</td>
+                            <td>1 </td>
+                            <td>
+                                <div>12.000</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th colspan="5">Tổng đơn hàng</th>
+                            <th>
+                                <div>124.000</div>
+                            </th>
+
+                        </tr>
+                    </table>
+                </div>
+                <div class="row mb">
+                    <button class="dongy">ĐỒNG Ý ĐẶT HÀNG</button>
+                </div>
+            </div>
+          </div>
+          </div>
+      <!-- ....................... -->
+
+      <!-- Phan footer -->
+      <div class="footer">
+        <div class="infomation">
+            <div class="colums-footer">
+              <h4>Từ khóa hàng đầu</h4>
+              <ul class="menu-footer">
+                <li>Trái cây</li>
+                <li>Rau củ hữu cơ</li>
+                <li>Rau củ Đà Lạt</li>
+                <li>Trái cây nhập khẩu</li>
+                <li>Nước ép</li>
+              </ul>
+            </div>
+            <div class="colums-footer">
+              <h4>Giới thiệu</h4>
+              <ul class="menu-footer">
+                <li>Về Sunnymarket</li>
+                <li>Chính sách giá</li>
+                <li>Chăm sóc khách hàng</li>
+              </ul>
+            </div>
+            <div class="colums-footer">
+              <h4>Thông tin cần thiết</h4>
+              <ul class="menu-footer">
+                <li>Chính sách bán hàng</li>
+                <li>Điều kiện bảo hành</li>
+                <li>Hướng dẫn mua hàng</li>
+                <li>Hướng dẫn sử dụng</li>
+              </ul>
+            </div>
+        </div>
+        <div class="contact">
+          <div class="call">
+            <span><i class="fas fa-headset"></i></span>
+            <h5>
+              <p>Hãy gọi cho chúng tôi</p>
+              <p class="phone">0909099999</p>
+            </h5>
+            <div>
+              <ul class="list-contact">
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

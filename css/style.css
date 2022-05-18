@@ -1,0 +1,245 @@
+#logo
+{
+    width: 60px;
+    height: 60px;
+}
+.nav-link
+{
+    text-transform: uppercase;
+    display: inline-block;
+}
+.fa-user
+{
+    width: 50px;
+    height: 40px;
+    font-size: 40px;
+    float: right;
+    margin-left: 20px;
+}
+#text-phone
+{
+    font-size: 30px;
+    text-decoration: none;
+    color:red;
+}
+#phone-box
+{
+    margin-right: 20px;
+}
+.fa-phone
+{
+    width: 30px;
+    height: 30px;
+    color: red;
+    margin-right: 10px;
+}
+.navbar-nav li:hover 
+{
+    color:green;
+}
+.w-100
+{
+    width: 1260px;
+    height: 660px;
+}
+.list
+{
+    border:1px solid #ddd;
+    border-radius: 10px;
+    width: 1140px;
+    margin:20px auto;
+}
+.list-items
+{
+    width: 20%;
+    height: 105px;
+    padding: 10px;
+    position: relative;
+    float: left;
+    border: 1px solid #ddd;
+}
+.fas
+{
+    color: #fedb1b;
+    font-size: 25px;
+}
+.media
+{
+    width: 150px;
+    margin: 0 auto;
+}
+.media-icon
+{
+    width: 15px;
+    margin: 0 auto;
+}
+.text
+{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    width: 40%;
+    color: black;
+}
+.number
+{
+    float: right;
+}
+.price
+{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-primary
+{
+    /* float: right; */
+    margin-top: 10px;
+}
+.card-title
+{
+    margin-bottom: 100px;
+}
+.text-title
+{
+    text-decoration: none;
+    color: #000;
+}
+.card-text
+{
+    text-align: justify;
+}
+.grid
+{
+    margin-top: 50px;
+}
+.name-grid
+{
+    text-decoration: none;
+}
+.name-grid:hover
+{
+    border-bottom: 5px solid #fedb1b;
+}
+.grid-item
+{
+    display: inline-block;
+    margin-left: 120px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    width: 1270px;
+}
+.name-grid
+{
+    font-weight: 1000;
+    font-size: 25px;
+    color: #333e48;
+    text-transform: uppercase;
+}
+.card-img-top
+{
+    height: 190px;
+    width: 260px;
+}
+.col{
+    cursor: pointer;
+}
+.card:hover
+{
+    opacity: 0.8;
+}
+.footer
+{
+    width: 100%;
+    height: 300px;
+    background-color: #f8f8f8;
+    padding: 40px;
+    margin-top: 25px;
+}
+.colums-footer
+{
+    float: right;
+    margin-left: 40px;
+}
+.menu-footer 
+{
+    list-style: none;
+}
+.menu-footer li
+{
+    margin: 14px 0;
+}
+h4{
+    margin-left: 30px;
+}
+.infomation
+{
+    width: 900px;
+    float: right;
+    padding-right: 100px;
+}
+.contact
+{
+    width:500px;
+    float: left;
+
+}
+.header
+{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.fa-headset
+{
+    font-size: 40px;
+    margin-left: 175px;
+    margin-bottom: 10px;
+    color: #fed700;
+}
+.phone{
+    margin-left: 45px;
+    color: #534539;
+}
+h5 p
+{
+    padding-left: 100px;
+}
+.list-contact
+{
+    list-style: none;
+}
+.list-contact li
+{
+    display: inline-block;
+    padding: 0 15px;
+}
+.list-contact li a
+{
+    font-size: 30px;
+}
+.giohang {
+    position: fixed;
+    border-radius: 10px;
+    right: 20px;
+    top: 20px;
+    height: 60px;
+    background-image: linear-gradient(#F90, #F60);
+    padding: 10px;
+}
+
+.giohang img {
+    width: 40px;
+    float: left;
+    margin-right: 5px;
+}
+
+.giohang span {
+    font-weight: bold;
+    font-size: 2vw;
+    color: yellow;
+    height: 40px;
+    line-height: 40px;
+}
